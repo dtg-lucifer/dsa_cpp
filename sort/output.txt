@@ -1,0 +1,2 @@
+Before sorting: [ 12, 3, 4, 5, 99, 75 ]
+After sorting: [ 3, 4, 5, 12, 75, 99 ]
