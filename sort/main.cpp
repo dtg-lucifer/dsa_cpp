@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 
-#include "headers/bubble_sort.h"
-#include "headers/selection_sort.h"
-#include "headers/insertion_sort.h"
-#include "headers/merge_sort.h"
-#include "headers/print_arr.h"
+#include "headers/bubble_sort.hpp"
+#include "headers/selection_sort.hpp"
+#include "headers/insertion_sort.hpp"
+#include "headers/merge_sort.hpp"
+#include "headers/print_arr.hpp"
 
 using std::cout, std::cin, std::endl;
 
