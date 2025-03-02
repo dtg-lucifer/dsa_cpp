@@ -5,12 +5,12 @@
 #include "headers/insertion_sort.hpp"
 #include "headers/merge_sort.hpp"
 #include "headers/print_arr.hpp"
+#include "headers/quick_sort.hpp"
 
 using std::cout, std::cin, std::endl;
 
 int main()
 {
-  //? input
   int n;
   cin >> n;
   int arr[n];
@@ -22,13 +22,8 @@ int main()
   cout << "Before sorting: ";
   print_arr(arr, n);
 
-  //? processing
-  // selection_sort(arr, n);
-  // bubble_sort(arr, n);
-  // insertion_sort(arr, n);
-  merge_sort(arr, 0, n - 1);
+  quickSort(arr, 0, n - 1);
 
-  //? output
   cout << "After sorting: ";
   print_arr(arr, n);
   return 0;
