@@ -4,26 +4,25 @@
 #include <iostream>
 #include <vector>
 
-#include "../second_largest.hpp"
+#include "../02_second_largest.hpp"
 
 using std::cin, std::cout, std::endl, std::vector;
 
-void find_two_sum()
+void find_second_largest()
 {
-  int n, target;
-  cin >> n >> target;
-  vector<int> nums(n);
+  int n;
+  cin >> n;
+  int nums[n];
 
   for (int i = 0; i < n; ++i)
   {
     cin >> nums[i];
   }
 
-  for (int index : result)
-  {
-    cout << index << " ";
-  }
-  cout << endl;
+  SecondLargest sl;
+  int res = sl.findRes(nums, n);
+
+  cout << res << endl;
 }
 
 #endif // _RUN_SECOND_LARGEST_HPP

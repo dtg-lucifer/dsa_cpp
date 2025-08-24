@@ -2,7 +2,6 @@
 #define TWO_SUM_HPP
 
 #include <vector>
-#include <unordered_map>
 
 class TwoSumSolution
 {

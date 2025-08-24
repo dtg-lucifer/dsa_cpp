@@ -2,7 +2,7 @@
 #include <vector>
 #include <unordered_map>
 
-#include "../headers/two_sum.hpp"
+#include "../headers/01_two_sum.hpp"
 
 std::vector<int> TwoSumSolution::twoSum(std::vector<int> &nums, int target)
 {

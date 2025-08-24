@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#include "../two_sum.hpp"
+#include "../01_two_sum.hpp"
 
 using std::cin, std::cout, std::endl, std::vector;
 
