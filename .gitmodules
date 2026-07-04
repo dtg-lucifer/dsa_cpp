@@ -1,0 +1,3 @@
+[submodule "advanced_structures/bloom_filters"]
+	path = advanced_structures/bloom_filters
+	url = git@github.com:dtg-lucifer/bloom-filter-cpp
