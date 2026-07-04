@@ -21,6 +21,7 @@ class Solution {
         return n <= 0;
     }
 };
+<<<<<<< HEAD
 
 int main(int argc, char* argv[]) {
     vector<int> flowerbed = {1, 0, 0, 0, 1};
@@ -31,6 +32,18 @@ int main(int argc, char* argv[]) {
     bool output = sol.canPlaceFlowers(flowerbed, n);
 
     std::cout << "Result: " << (output ? "true" : "false") << std::endl;
+||||||| 801b28f
+=======
+int main(int argc, char* argv[]) {
+    vector<int> flowerbed = {1, 0, 0, 0, 0, 1};
+    int n = 2;
+
+    Solution sol;
+
+    bool result = sol.canPlaceFlowers(flowerbed, n);
+
+    std::cout << "Result: " << result << std::endl;
+>>>>>>> 59fe5049ee2abeaa9b7b96920532302196add647
 
     return 0;
 }
