@@ -27,17 +27,6 @@ class Solution {
 
 int main(int argc, char* argv[]) {
     vector<int> candies = {2, 3, 5, 1, 3};
-<<<<<<< HEAD
-
-    Solution sol;
-
-    vector<bool> output = sol.kidsWithCandies(candies, 3);
-
-    std::cout << "Result: ";
-    for (bool o : output) {
-        std::cout << (o ? "true" : "false") << " ";
-||||||| 801b28f
-=======
     int extraCandies = 3;
 
     Solution sol;
@@ -47,7 +36,6 @@ int main(int argc, char* argv[]) {
     std::cout << "Result: ";
     for (auto b : result) {
         std::cout << b << " ";
->>>>>>> 59fe5049ee2abeaa9b7b96920532302196add647
     }
     std::cout << std::endl;
 
