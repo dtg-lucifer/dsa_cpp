@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -g -Wall -O2
+CXXFLAGS = -g -O2
 BIN_DIR = bin
 
 %: %.cpp
